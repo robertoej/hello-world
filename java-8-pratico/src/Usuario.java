@@ -10,6 +10,10 @@ public class Usuario {
 		this.moderador = false;
 	}
 	
+	public void tornaModerador() {
+		this.moderador = true;
+	}
+	
 	public int getPontos() {
 		return pontos;
 	}
